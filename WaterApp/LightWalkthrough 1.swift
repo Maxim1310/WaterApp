@@ -12,21 +12,27 @@ struct LightWalkthrough1: View {
         ZStack{
             Color.blue
                 .ignoresSafeArea()
-            
-                    Image("Iphone")
-                        .resizable()
-                        .scaledToFit()
-                        .padding(.top, 50)
+          
                     Image("Home")
                         .resizable()
                         .scaledToFit()
-                        .padding(.top, 70)
+                        .padding(.top, 50)
+            Path{ path in
+                
+                
+            }
+                
+               
+                                           
+            
+            
                         
                 
             
             
             
         }
+        
     }
     
     
